@@ -134,3 +134,40 @@ nav a:hover {
 .aboutMe-photo img {
     height: 400px;
 }
+
+
+/* contact section desing */
+
+.contact-section {
+    height: 100vh;
+    width: 70vw;
+    margin: auto;
+}
+
+.contact-section h1 {
+    text-align: center;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.contact {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-img img {
+    width: 60px;
+    height: 60px;
+}
+
+.contact-details {
+    padding: 10px;
+}
