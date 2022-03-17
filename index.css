@@ -139,7 +139,7 @@ nav a:hover {
 /* contact section desing */
 
 .contact-section {
-    height: 100vh;
+    height: 70vh;
     width: 70vw;
     margin: auto;
 }
@@ -170,4 +170,13 @@ nav a:hover {
 
 .contact-details {
     padding: 10px;
+}
+
+
+/* footer section  */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(rgba(57, 64, 85, 0.822), rgba(66, 72, 92, 0.247));
 }
