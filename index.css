@@ -114,3 +114,23 @@ nav a:hover {
     padding: 20px;
     background-image: linear-gradient(rgba(57, 64, 85, 0.822), rgba(66, 72, 92, 0.247));
 }
+
+
+/* about section  design  */
+
+.about-me-section {
+    width: 70vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.aboutMe-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMe-photo img {
+    height: 400px;
+}
