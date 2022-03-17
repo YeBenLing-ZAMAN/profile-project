@@ -1,11 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
-
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body{
-    font-family: 'Redressed', cursive;
+body {
+    /* font-family: 'Redressed', cursive; */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.459);
+}
+
+nav a {
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+nav a:hover {
+    color: rgb(223, 70, 70);
+}
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./image/two.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* home text handle section */
+
+.home-text {
+    height: calc(100vh - 68px);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 'left center right';
+    align-items: center;
+    justify-content: center;
 }
