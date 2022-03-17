@@ -90,3 +90,27 @@ nav a:hover {
     background-position: center;
     background-size: cover;
 }
+
+
+/* project section design */
+
+.project-container {
+    height: 100vh;
+    width: 70vw;
+    margin: auto;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.projects img {
+    height: 200px;
+    width: 300px;
+}
+
+.project-details {
+    padding: 20px;
+    background-image: linear-gradient(rgba(57, 64, 85, 0.822), rgba(66, 72, 92, 0.247));
+}
